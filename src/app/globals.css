@@ -25,3 +25,30 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+
+.mainBg {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 51% 100%, 0 88%);
+  box-shadow: -8px 65px 142px -48px rgba(184, 172, 172, 0.84);
+  -webkit-box-shadow: -8px 65px 142px -48px rgba(184, 172, 172, 0.84);
+  -moz-box-shadow: -8px 65px 142px -48px rgba(184, 172, 172, 0.84);
+
+  background: hsla(280, 76%, 52%, 1);
+
+  background: linear-gradient(90deg, hsla(280, 76%, 52%, 1) 0%, hsla(193, 70%, 48%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(280, 76%, 52%, 1) 0%, hsla(193, 70%, 48%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(280, 76%, 52%, 1) 0%, hsla(193, 70%, 48%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A328E1", endColorstr="#25ACD1", GradientType=1);
+}
+
+header{
+  background-color: #186a8b82;
+  backdrop-filter: blur(1px) !important;
+  position: sticky;
+  top: 0;
+}
