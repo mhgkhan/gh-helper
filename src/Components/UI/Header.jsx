@@ -1,7 +1,10 @@
 "use client"
 
+
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+
+
 
 const Header = ({ font }) => {
 
@@ -31,11 +34,17 @@ const Header = ({ font }) => {
 
     return (
         <header className='z-[10000]'>
-            <div className={`container mx-auto  bg-transparent flex ${isMobile? "flex-col h-[60px] overflow-hidden":"items-center justify-around h-[60px]"}`}>
-                <div className={`logo flex items-center justify-center gap-1  ${font.className}`}>
-                    <h1 className='text-3xl text-pink-600'>G </h1>
-                    <h1 className='text-3xl text-white'>Helper  </h1>
+            <div className={`container mx-auto  bg-transparent flex ${isMobile? "flex-col h-[60px] overflow-hidden":"items-end justify-around h-[60px]"}`}>
+               
+               <div className="logo-section flex items-end justify-between">
+               <div className={`logo flex items-end justify-center gap-1  ${font.className}`}>
+                    <h1 className='text-5xl text-pink-600'>G </h1>
+                    <h1 className='text-5xl text-white'>Helper  </h1>
                 </div>
+                <button>
+                
+                </button>
+               </div>
 
 
                 <nav className={`${isMobile ? "mt-3":"mt-0"}`}>
