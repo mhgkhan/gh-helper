@@ -36,7 +36,7 @@ const Header = ({ font }) => {
 
     return (
         <header className='z-[10000]'>
-            <div className={`container mx-auto  bg-transparent transition-all duration-300 flex ${isMobile ? `flex-col h-[60px] ${sidebarOpened?`h-[300px]`: `h-[60px]`} overflow-hidden` : "items-end justify-around h-[60px]"}`}>
+            <div className={`container mx-auto  bg-transparent transition-all duration-300 flex ${isMobile ? `flex-col  ${sidebarOpened?`h-[300px]`: `h-[60px]`} overflow-hidden` : "items-end justify-around h-[60px]"}`}>
 
                 <div className="logo-section flex items-end justify-between md:px-0 px-3 ">
                     <div className={`logo flex items-end justify-center gap-1  ${font.className}`}>
