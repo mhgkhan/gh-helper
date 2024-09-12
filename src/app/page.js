@@ -1,5 +1,6 @@
 import LatestBlogsContainer from "@/Components/UI/home/LatestBlogsContainer";
 import { webSiteHeadingFont } from "./layout";
+import TrendingBlogsContainer from "@/Components/UI/home/TrendingBlogsContainer";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       </div>
     </main>
     <LatestBlogsContainer />
-    
+    <TrendingBlogsContainer />
    </>
   );
 }
