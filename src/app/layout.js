@@ -1,6 +1,7 @@
 import { Fira_Sans, Nunito, Protest_Guerrilla } from "next/font/google"
 import "./globals.css";
 import Header from "@/Components/UI/Header";
+import Footer from "@/Components/UI/Footer";
 
 export const webSiteHeadingFont = Protest_Guerrilla({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       >
         <Header font={webSiteHeadingFont} />
         {children}
+        <Footer font={webSiteHeadingFont} />
       </body>
     </html>
   );
